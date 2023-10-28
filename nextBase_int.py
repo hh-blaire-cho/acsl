@@ -1,6 +1,6 @@
-def findDigitSum(ntimes, base, start):
-    lst = list(map(int, list(str(start)))) # <---digit
-    ans = sum(lst)
+def countLargestDigit(ntimes, base, start):
+    lst = list(map(int, list(str(start))))
+    ans = lst.count(base-1)
     for _ in range(ntimes - 1):
         carry = 0
         lst[-1] += 1
@@ -13,10 +13,9 @@ def findDigitSum(ntimes, base, start):
             lst[j] = 0
         if lst[0] == 0:
             lst = [1] + lst
-        ans += sum(lst)
+        ans += lst.count(base-1)
     return ans
-
 
 for _ in range(5):
     n, b, s = map(int, input().split())
-    print(findDigitSum(n,b,s))
+    print(countLargestDigit(n,b,s))
