@@ -1,0 +1,19 @@
+3
+25 3.79 50
+A C
+E F
+C G
+B E
+A G
+28 3.59 55
+A D
+B F
+D G
+C E
+A G
+42 3.14 77
+A C
+E F
+C G
+B E
+A G

@@ -1,0 +1,21 @@
+20
+A C M H 3.79
+E F C S 3.69
+B E F M 3.59
+F G V H 3.89
+A G C I 3.63
+A C M I 3.59
+D E C S 3.69
+C E F I 3.79
+B G V H 3.72
+A F V M 3.54
+C D M H 3.65
+B F C I 3.82
+E G F M 3.71
+A D V S 3.48
+C F M I 3.76
+D G V H 3.90
+B D C M 3.58
+A E F H 3.69
+A E V I 3.85
+C G M S 3.62
