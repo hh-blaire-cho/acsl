@@ -4,7 +4,7 @@ sys.stdin = open("./inputs/in_chmod_1.txt", "r")
 input = sys.stdin.readline
 
 
-def binary2rw(code):
+def binary2rwx(code):
     ret = list("rwx")
     for i in range(3):
         if code[i] == "0":
@@ -17,9 +17,9 @@ def solve():
     code1 = bin(x)[2:].zfill(3)
     code2 = bin(y)[2:].zfill(3)
     code3 = bin(z)[2:].zfill(3)
-    lst1 = binary2rw(code1)
-    lst2 = binary2rw(code2)
-    lst3 = binary2rw(code3)
+    lst1 = binary2rwx(code1)
+    lst2 = binary2rwx(code2)
+    lst3 = binary2rwx(code3)
     print(
         f"{code1} {code2} {code3} and {''.join(lst1)} {''.join(lst2)} {''.join(lst3)}"
     )
