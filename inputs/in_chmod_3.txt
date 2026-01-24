@@ -1,0 +1,16 @@
+15
+r-x rw- rwx
+rwx -w- r-x
+rwx rw- r--
+r-x r-- rwx
+rw- r-x -wx
+--- --- rwx
+rwx -w- r-x
+-wx rwx r--
+--- r-x rw-
+rw- -wx r-x
+r-x rwx ---
+-w- r-- rwx
+rwx r-x rw-
+-w- rwx r--
+r-- -wx rwx
