@@ -1,7 +1,6 @@
 .venv/
 baekjoon/
 doc/
-inputs/output/
 inputs/temp/
 others/
 code.py

@@ -1,0 +1,10 @@
+#1 415 and r-- --x r-x
+#2 234 and -w- -wx r--
+#3 517 and r-x --x rwx
+#4 165 and --x rw- r-x
+#5 726 and rwx -w- rw-
+#6 154 and --x r-x r--
+#7 577 and r-x rwx rwx
+#8 554 and r-x r-x r--
+#9 110 and --x --x ---
+#10 207 and -w- --- rwx

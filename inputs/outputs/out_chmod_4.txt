@@ -1,0 +1,10 @@
+#1 101 010 110 and r-x -w- rw-
+#2 111 011 000 and rws -wx ---
+#3 100 001 101 and r-- --s r-x
+#4 010 011 100 and -w- -wx r--
+#5 101 110 111 and r-x rw- rwt
+#6 010 100 111 and -w- r-- rwt
+#7 001 101 100 and --x r-x r--
+#8 111 011 001 and rws -wx --x
+#9 110 111 011 and rw- rws -wx
+#10 111 100 101 and rwx r-- r-t
